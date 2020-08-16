@@ -1,0 +1,37 @@
+pais(joao,ana).
+pais(ana,jose).
+pais(joao,maria).
+
+avos(X,Y) :-pais(X,Z),pais(Z,Y).
+
+vôo(sao_paulo,madrid,gl1,8:25,(mesmo,20:25),0,gol,[qua,sex,dom]).
+
+%São Paulo <-> México, Nova York, Lisboa, Madrid, Londres, Paris
+%México <-> Nova York, Madrid
+%Nova York <-> Londres
+%Londres <-> Lisboa, Paris,Estocolmo
+%Madrid <-> Paris, Roma, Frankfurt
+%Frankfurt <-> Estocolmo, Roma
+
+vôo(sao_paulo,mexico,1,1:00,(mesmo,22:00),0,gol,[qua,sex,dom]).
+vôo(sao_paulo,nova_york,2,2:00,(seguinte,00:00),0,tam,[quin,sex,sab,dom]).
+vôo(sao_paulo,lisboa,3,3:00,(seguinte,1:00),0,gol,[sex,sab]).
+vôo(sao_paulo,madrid,4,4:00,(seguinte,2:00),0,tam,[qua,sex]).
+vôo(sao_paulo,londres,5,5:00,(seguinte,5:00),0,gol,[sex,sab,dom]).
+vôo(sao_paulo,paris,6,6:00,(seguinte,1:00),0,tam,[qua,sex,dom]).
+
+vôo(mexico,nova_york,7,7:00,(mesmo,11:40),0,iberia,[qua,sex,dom]).
+vôo(mexico,madrid,8,8:00,(mesmo,20:00),0,iberia,[quin,sex,sab,dom]).
+
+vôo(nova_york,londres,9:00,(mesmo,16:00),0,iberia,[sex,sab]).
+
+vôo(londres,lisboa,10,10:00,(mesmo,12:45),0,iberia,[qua,sex]).
+vôo(londres,paris,11,11:00,(mesmo,13:15),0,iberia,[sex,sab,dom]).
+vôo(londres,estocolmo,12,12:00,(mesmo,14:25),0,iberia,[qua,sex,dom]).
+
+vôo(madrid,paris,13,13:00,(mesmo,15:00),0,iberia,[qua,sex,dom]).
+vôo(madrid,roma,14,14:00,(mesmo,16:25),0,iberia,[quin,sex,sab,dom]).
+vôo(madrid,frankfurt,15:15:00,(mesmo,17:35),0,iberia,[sex,sab]).
+
+vôo(frankfurt,estocolmo,16,16:00,(mesmo,18:05),0,iberia,[qua,sex]).
+vôo(frankfurt,roma,17,17:00,(mesmo,18:50),0,iberia,[sex,sab,dom]).
