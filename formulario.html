@@ -1,0 +1,126 @@
+<!DOCTYPE HTML>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Formulário</title>
+        <link rel="stylesheet" type="text/css" href="estilo.css">
+        <script type="text/javascript" src="D:\tp\exercícios\05_exercicio_form_js\arquivo.js"></script>
+
+    </head>
+    <body>
+
+        <h1>Cadastre seu currículo</h1>
+    
+        <form name="form1" action="salvarDados" method="post">
+            <table>
+
+            <h2>1. Dados pessoais</h2>
+            <tr>
+                <td class="tdStyle">Nome</td>
+            <td class="input"> <input type="text" name="nome" placeholder="Digite seu nome" required /></td>
+            </tr>
+            <tr>
+            <td class="tdStyle">Data de nascimento</td>
+            <td class="input"><input type="date" name="data_de_nascimento"/></td>
+            </tr>
+            <tr>
+            <td class="tdStyle">Estado Civil </td>
+            <td class="input">
+              <select name="estadoCivil">
+                <option value="" selected disabled hidden>Selecione o stado civil</option>   
+                <option value="Solteira">Solteir@</option>
+                <option value="Casada">Casad@</option>
+                <option value="Viuva">Viuv@</option>
+                <option value="Divorciada">Divorciad@</option>
+            </select>
+            <span id="err"></span>
+        </td>
+    </tr>
+    <tr>
+            <td class="tdStyle">Sexo </td>
+            <td class="input"><input type="radio" name="sexo" value="fem" />Feminino <input type="radio" name="sexo" value="mas"/> Masculino </td>
+    </tr>
+    </table>
+
+    <table>
+            <h2>2. Objetivo</h2>
+            <tr>
+            <td class="tdStyle">Objetivo </td>
+            <td class="input"><input type="text" name="objetivo" placeholder="Digite seu objetivo" required/></td>
+            </tr>
+    </table> 
+    
+    <table>
+            <h2>3. Contato</h2>
+            <tr>
+            <td class="tdStyle">Endereço </td>
+            <td class="input"><input type="text" name="endereco" placeholder="Digite seu endereço" required/></td>
+        </tr>
+
+        <tr>
+           <td class="tdStyle">Cidade/Estado </td>
+           <td class="input"><input type="text" name="cidade" placeholder="Digite sua cidade" required/>  /
+               <input type="text" name="estado" placeholder="Digite seu Estado"required pattern="[A-Z]{2}"/></td>
+        </tr>
+        <tr>
+            <td class="tdStyle">CEP </td>
+               <td class="input"><input type="text" name="cep " placeholder="Digite seu CEP no formato 99999-999"required pattern="[0-9]{5}[/-][0-9]{3}"/></td>
+        </tr>
+        <tr>
+            <td class="tdStyle">Telefone </td>
+                <td class="input"><input type="tel" name="telefone" placeholder="Digite seu telefone no formato (99)9999-9999" pattern="[\(] [0-9]{2}[\)][0-9]{4}[\-][0-9]{4}" /></td>
+        </tr>
+        <tr> 
+           <td class="tdStyle"> Email </td>
+           <td class="input"><input type="email" name="email" placeholder="Digite seu email"required /></td>
+        </tr>
+        <tr>
+            <td class="tdStyle">Rede Social</td>
+            <td class="input">
+            <img src="face.png" >  &nbsp; http://facebook.com/<input type="text" name="face" placeholder="Perfil facebook"/><br/> 
+            <img src="linkedin.png" >  &nbsp;http://linkedin.com/<input type="text" name="linkedin" placeholder="Perfil linkedin"/><br/>
+            <img src="skype.png" >  &nbsp;<input type="text" name="skype" placeholder="Perfil skype"/>
+        </td>
+        </tr>
+    </table>
+            
+    <table>
+            <h2>4. Conhecimentos</h2>
+            <tr>
+                <td class="tdStyle">Linguagens de Programação</td>
+                <td class="input">
+                    <input type="checkbox" name="conhecimento" value="C/C++" />C/C++<br>
+                    <input type="checkbox" name="conhecimento" value="java" />Java<br>
+                    <input type="checkbox" name="conhecimento" value="visual_basic" />Visual Basic<br>
+                    <input type="checkbox" name="conhecimento" value=".net" />.NET<br>
+                    <input type="checkbox" name="conhecimento" value="php" />PHP<br>
+                    <input type="checkbox" name="conhecimento" value="python" />Python<br>
+                    <input type="checkbox" name="conhecimento" value="html" />HTMl<br>
+                </td>
+            </tr>
+            
+            <tr>
+            <td class="tdStyle">Idiomas </td>
+            <td class="input">  Inglês
+                <select name="ingles">
+                <option value="basico">Básico</option>
+                <option value="intermediario">Intermediário</option>
+                <option value="avancado">Avançado</option>
+            </select>
+            
+            | Espanhol  <select name="espanhol">
+                <option value="basico">Básico</option>
+                <option value="intermediario">Intermediário</option>
+                <option value="avancado">Avançado</option> 
+                </select>
+            </td>
+            </tr>
+            </table>
+                <br/><br/><br/>
+                <input class="buttons" type="button" onclick="Limpar()" value="Limpar"/>
+                &nbsp;&nbsp;&nbsp;
+                <input class="buttons" type="button" onclick="Enviar()" value="Enviar"/>
+        </form>
+    </body>
+</html>
