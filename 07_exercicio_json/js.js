@@ -87,12 +87,11 @@ function loadQuestion(resp) {
             document.getElementById('contQuiz').innerHTML = count;
         }
 
-       /* if (count != 0)
-            window.location.href = "./pages/PagResult.html?" + (count) + "=count=" + pausar() + "=tempo";
+        if (count != 0)
+            window.location.href = "./pages/PagResult.html?" + (count) + "=count=";
         else
-            window.location.href = "./pages/PagResult.html?" + 0 + "=count=" + pausar() + "=tempo";
+            window.location.href = ".resultado.html?" + 0 + "=count=";
 
-        resetar();*/
     }
 }
 

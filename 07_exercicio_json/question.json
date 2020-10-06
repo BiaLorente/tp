@@ -1,5 +1,4 @@
-{
-    "myQuestions" : [
+var myQuestions = [
     {   
         "name":"opera",
         "question": "O país berço da ópera é...",//1
@@ -120,8 +119,7 @@
         ],
         "correctAnswer": "Puccini"
     }
-]
-}
+];
 
 
    
