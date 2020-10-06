@@ -1,0 +1,113 @@
+
+.opera{
+    background-image: src("quiz_img/opera.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+}
+
+.guarani{
+    background-image: src("quiz_img/o_guarani.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+}
+
+.traviata{
+    background-image: src("quiz_img/la_traviata.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+}
+
+.barbeiro{
+    background-image: src("quiz_img/barbeiro_de_sevilha.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+}
+
+.turandot{
+    background-image: src("quiz_img/turandot.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+}
+
+.flauta{
+    background-image: src("quiz_img/flauta_magica.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+}
+
+.macbeth{
+    background-image: src("quiz_img/macbeth.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+}
+
+.orfeu{
+    background-image: src("quiz_img/orfeo.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+}
+
+.dido{
+    background-image: src("quiz_img/dido_e_eneias.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+}
+
+.tosca{
+    background-image: src("quiz_img/tosca.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+}
+
+
+.questQuiz{
+    font-size: 2vw;
+    font-family: Arial;
+    font-weight: bold;
+}
+
+.editarImagens {
+    width: 50vw;
+    height: 30vw;
+}
+
+.backgroundCards {
+    width: 80%;
+    padding-left: 27.5%;
+}
+
+.acertos{
+    color: white;
+    font-size: 3em;
+    margin-top: 10%;
+    text-shadow: 2px 2px black;
+}
+
+.resultfundo{
+    text-align: center;
+    align-content: center;
+    background-image: src("quiz_img/opera.png");
+    background-repeat: no-repeat;
+}
+
+#pontuação{
+    font-size: 2vw;
+    font-family: Arial;
+    font-weight: bold;
+}
+
+#qtdImagens{
+    font-size: 1.5vw;
+    font-family: tahoma;
+    font-weight: bold;
+}

@@ -1,0 +1,127 @@
+{
+    "myQuestions" : [
+    {   
+        "name":"opera",
+        "question": "O país berço da ópera é...",//1
+        "img": "quiz_img/opera.png",
+        "answers": [
+            "Áustria",
+            "Rússia",
+            "França",
+            "Itália"
+        ],
+        "correctAnswer": "Itália"
+    },
+    {   
+        "name":"guarani",
+        "question": "O Guarani é uma obra ?",//2
+        "img": "quiz_img/o_guarani.png",
+        "answers": [
+            "Africana",
+            "Indiana",
+            "Brasileira",
+            "Peruana "
+        ],
+        "correctAnswer": "Brasileira"
+    },
+    {  
+        "name":"traviata",
+        "question": "O compositor da Ópera La Traviata é:",//3
+        "img": "quiz_img/la_traviata.png",
+        "answers": [
+            "Strauss",
+            "Giuseppe Verdi",
+            "Monteverdi",
+            "Pavarotti"
+        ],
+        "correctAnswer": "Giuseppe Verdi"
+    },
+    {   
+        "name":"barbeiro",
+        "question": "O compositor do Barbeiro de Sevilha é",//4
+        "img": "quiz_img/barbeiro_de_sevilha.png",
+        "answers": [
+            "Wagner",
+            "Verdi",
+            "Monteverdi",
+            "Mozert"
+        ],
+        "correctAnswer": "Mozert"
+    },
+    {   
+        "name":"turandot",
+        "question": "O compositor da opera Turandot",//5
+        "img": "quiz_img/turandot.png",
+        "answers": [
+            "Puccini",
+            "Verdi",
+            "Andrea Bocelli",
+            "Luciano Pavarotti"
+        ],
+        "correctAnswer": "Puccini"
+    },
+    {   
+        "name":"flauta",
+        "question": "O compositor da ópera Flauta Mágica é",//6
+        "img": "quiz_img/flauta_magica.png",
+        "answers": [
+            "Wagner",
+            "Verdi",
+            "Monteverdi",
+            "Mozert"
+        ],
+        "correctAnswer": "Mozert"
+    },
+    {   
+        "name":"macbeth",
+        "question": "O compositor da ópera Macbeth é",//7
+        "img": "quiz_img/macbeth.png",
+        "answers": [
+            "Puccini",
+            "Verdi",
+            "Andrea Bocelli",
+            "Luciano Pavarotti"
+        ],
+        "correctAnswer": "Verdi"
+    },
+    {   
+        "name":"orfeu",
+        "question": "O compositor da ópera L'Órfeo é",//8
+        "img": "quiz_img/orfeo.png",
+        "answers": [
+            "Strauss",
+            "Verdi",
+            "Monteverdi",
+            "Luciano Pavarotti"
+        ],
+        "correctAnswer": "Monteverdi"
+    },
+    {   
+        "name":"dido",
+        "question": "O compositor da ópera Dido e Enéias é",//9
+        "img": "quiz_img/dido_e_eneias.png",
+        "answers": [
+            "Puccini",
+            "Verdi",
+            "Henry Purcell",
+            "Luciano Pavarotti"
+        ],
+        "correctAnswer": "Henry Purcell"
+    },
+    {   
+        "name":"tosca",
+        "question": "O compositor da ópera Tosca é",//10
+        "img": "quiz_img/tosca.png",
+        "answers": [
+            "Puccini",
+            "Verdi",
+            "Monteverdi",
+            "Mozert"
+        ],
+        "correctAnswer": "Puccini"
+    }
+]
+}
+
+
+   
